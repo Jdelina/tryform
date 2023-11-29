@@ -20,7 +20,11 @@
             </select>
             <br>
             <textarea name="Message" placeholder="Message" required> </textarea> <br>
-            <button type="submit"> Send </button>
+            <div>
+          <input type="submit" value="Submit" id="formbuttons" onclick="alert('Form already submit')">
+          <input type="hidden" name="_next" value="https://jdelina.github.io/tryform/">
+          <input type="hidden" name="_autoresponse" value="Thank you for messaging us!">
+          </div>
         </form>
 
     </div>
